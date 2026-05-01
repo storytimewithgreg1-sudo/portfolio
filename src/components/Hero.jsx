@@ -13,7 +13,7 @@ const Hero = () => {
        
         <TextType 
           className='font-bold text-4xl md:text-6xl text-base-content mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent'
-          text={["Hello, I'm Greg", "Welcome To My Repo"]}
+          text={["Hello, I'm Greg", "Welcome", "To My Repo"]}
           typingSpeed={75}
           pauseDuration={1500}
           showCursor
