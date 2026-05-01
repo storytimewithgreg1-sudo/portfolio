@@ -12,7 +12,7 @@ const About = () => {
         </div>
 
         <div>
-          <p className='leading-relaxed text-xl md:text-2xl text-base-content/80 tracking-wider'>
+          <p className='leading-relaxed text-sm md:text-lg lg:text-lg text-base-content/80 tracking-wider'>
             I'm someone who enjoys creating, whether it's writing code or experimenting in other fields.
             I started off as an artist in the early phases. My passion for art only grew from there. Fast forward,
             COVID-19 hit and everyone had to stay home. Youtube and tiktok was my go to for connecting to the external 

@@ -57,7 +57,7 @@ export const Skills = () => {
                             <div className='flex flex-col mb-9'>
                                 <h1 className='mb-3 text-base-content/60'> {item.skillDetails.name} </h1>
                            
-                                <progress className='progress w-80 md:w-70 lg:w-70 progress-accent' value={item.skillDetails.level} max="100"></progress>
+                                <progress className='progress w-50 md:w-70 lg:w-70 progress-accent' value={item.skillDetails.level} max="100"></progress>
                             </div>
 
                         ))}
