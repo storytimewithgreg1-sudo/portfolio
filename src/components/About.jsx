@@ -3,9 +3,9 @@ import {CircleUserRound} from "lucide-react"
 
 const About = () => {
   return (
-    <div className=' pt-15 pb-15 px-8 md:px-20 lg:px-40 bg-base-200 max-w-full'>
+    <div id='about' className=' pt-15 pb-15 px-8 md:px-20 lg:px-40 bg-base-200 max-w-full'>
 
-      <div className='hover:shadow-md bg-base-300 rounded-2xl p-4 flex flex-col items-center max-w-4xl md:max-w-6xl lg:max-w-8xl mx-auto'>
+      <div className='hover:shadow-md bg-base-300 rounded-2xl p-4 flex flex-col items-center max-w-4xl md:max-w-5xl lg:max-w-6xl mx-auto'>
         <div className='mb-5 flex flex-col items-center'>
           <CircleUserRound strokeWidth={1} className='size-20  text-base-content mb-4' />
           <span className='text-4xl font-medium '>About Me</span>
