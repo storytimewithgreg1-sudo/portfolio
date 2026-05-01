@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
 
         <div>
-            <button className='btn-sm md:btn-md btn-accent text-base-200 rounded-xl'>
+            <button className='btn btn-sm md:btn-md btn-accent text-base-200 rounded-xl'>
                 About me
             </button>
 

@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='w-full h-100 flex flex-col items-center  pt-15 '>
 
       <div className='max-w-10xl md:max-w-13xl lg:max-w-15xl   '>
-        <img className='bg-accent/20 rounded-full  w-50 h-auto mb-5 ' src="/greg.png" alt="" />
+        <img className='bg-accent/20 rounded-full  w-30 md:w-50 lg:w-60 h-auto mb-5 ' src="/greg.png" alt="" />
       </div>
       <div className='flex flex-col justify-center items-center'>
         <span className='font-bold font-poppins text-base-content  text-2xl md:text-4xl mb-3'>Hello, I'm Greg </span>

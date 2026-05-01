@@ -45,19 +45,19 @@ const skillGroups = [
 
 export const Skills = () => {
   return (
-    <div className='w-full min-h-screen p-20'>
-        <div className='max-w-3xl md:max-w-5xl lg:max-w-7xl flex flex-col items-center mx-auto '>
+    <div className='w-full min-h-screen p-5'>
+        <div className='max-w-4xl md:max-w-5xl lg:max-w-7xl flex flex-col items-center mx-auto '>
             <span className='font-medium text-4xl mb-10'>Skills</span>
             
             <div className='grid grid-cols-1 md:grid-cols-2 md:gap-x-20  lg:grid-cols-3'>
                 {skillGroups.map((group) => (
-                    <div className='card bg-base-300 p-6 shadow-lg mb-20'>
+                    <div className='card min-w-sm flex flex-col items-center bg-base-300 p-6 shadow-lg mb-20'>
                         <span className='text-base-content/80 card-title mb-5 font-medium text-2xl '>{group.category}</span>
                         {group.skills.map((item)=> (
                             <div className='flex flex-col mb-9'>
                                 <h1 className='mb-3 text-base-content/60'> {item.skillDetails.name} </h1>
                            
-                                <progress className='progress w-30 md:w-70 lg:w-70 progress-accent' value={item.skillDetails.level} max="100"></progress>
+                                <progress className='progress w-60 md:w-70 lg:w-70 progress-accent' value={item.skillDetails.level} max="100"></progress>
                             </div>
 
                         ))}
