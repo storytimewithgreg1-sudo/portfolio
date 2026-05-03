@@ -13,11 +13,27 @@ const About = () => {
 
         <div>
           <p className='leading-relaxed text-sm md:text-lg lg:text-lg text-slate-600 tracking-wider'>
-            I'm someone who enjoys creating, whether it's writing code or experimenting in other fields.
-            I started off as an artist in the early phases. My passion for art only grew from there. Fast forward,
-            COVID-19 hit and everyone had to stay home. Youtube and tiktok was my go to for connecting to the external 
-            world since everyone was practicing social distancing. I came across <span className='fond-bold text-base-content/90'>Python </span>
-            and at that very moment, i knew i wanted to become a programmer.
+          I’m Greg Worlanyo — a developer, animator, and artist based in Accra, Ghana.
+          My journey into tech started during the COVID-19 pandemic, when I found myself 
+          spending a lot of time on YouTube and TikTok. Somewhere along the way, 
+          I came across Python—and what it could do immediately caught my attention.
+          That curiosity led me to take my first programming course, and it set me on a path
+          I’ve been building on ever since.
+          Today, I work at the intersection of technology and art. I develop web platforms,
+          create animations, and produce visual work that turns simple ideas into engaging experiences.
+          From writing backend logic to painting and designing animated pieces, I focus on buildin
+          things that are both functional and expressive.
+          
+          I have a background in teaching mathematics, science, biology, and physics, which shaped how I
+          approach problem-solving. That mindset continues to influence
+          both my development work and my creative process.
+
+          I also explore my artistic side through painting and animation, constantly experimenting with
+          new ways to bring ideas to life visually.
+
+          Right now, I’m focused on growing as a software developer, refining my artistic style, and building
+          projects that are both useful and visually compelling.
+
           </p>
         </div>
       </div>
