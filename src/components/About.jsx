@@ -16,7 +16,7 @@ const About = () => {
           I’m Greg Worlanyo — a developer, animator, and artist based in Accra, Ghana.
           My journey into tech started during the COVID-19 pandemic, when I found myself 
           spending a lot of time on YouTube and TikTok. Somewhere along the way, 
-          I came across Python—and what it could do immediately caught my attention.
+          I came across Python, and what it could do immediately caught my attention.
           That curiosity led me to take my first programming course, and it set me on a path
           I’ve been building on ever since.
           Today, I work at the intersection of technology and art. I develop web platforms,
