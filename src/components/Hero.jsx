@@ -12,7 +12,7 @@ const Hero = () => {
       
        
         <TextType 
-          className='font-bold text-4xl md:text-6xl text-base-content mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent'
+          className='font-bold text-4xl md:text-6xl text-base-content mb-6 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent'
           text={["Hello, I'm Greg", "Welcome", "To My Repo"]}
           typingSpeed={75}
           pauseDuration={1500}
@@ -26,8 +26,8 @@ const Hero = () => {
           cursorBlinkDuration={0.5}
         />
 
-        <span className='font-medium text-lg text-sky-600'>Developer • Animator • Game Dev</span>
-        <a href="#projects" className='btn bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg shadow-md my-10'>View Projects</a>
+        <span className='font-medium text-xs md:text-sm text-indigo-600/60'>Developer • Animator • Game Dev</span>
+        <a href="#projects" className='btn bg-gradient-to-r from-blue-500 to-indigo-500 text-white rounded-lg shadow-md my-10'>View Projects</a>
         
        
       </div>
