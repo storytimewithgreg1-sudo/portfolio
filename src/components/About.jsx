@@ -12,7 +12,7 @@ const About = () => {
         </div>
 
         <div>
-          <p className='leading-relaxed text-sm md:text-lg lg:text-lg text-slate-600 tracking-wider'>
+          <p className='leading-relaxed text-xs md:text-sm lg:text-md text-indigo-600/70 tracking-wider'>
           I’m Greg Worlanyo — a developer, animator, and artist based in Accra, Ghana.
           My journey into tech started during the COVID-19 pandemic, when I found myself 
           spending a lot of time on YouTube and TikTok. Somewhere along the way, 
